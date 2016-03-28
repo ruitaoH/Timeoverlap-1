@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="123.js"></script>
+    <script src="1233.js"></script>
+</head>
+<body>
+<textarea id="guestCalendar"  style="height:100px; width:200px;"></textarea>
+<input id="trigger" value="日期" type="button"/>
+<script>
+
+
+    var datePicker=new Calendar({
+        enter:'guestCalendar',//显示值的的id
+        trigger:"trigger"  //触发控件id，该控件要支持click
+    });
+</script>
+</body>
+</html>
