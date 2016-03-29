@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+}
+#header{
+
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #48bfff;
+    height: 40px;
+}
+#div_img{
+    width: 40px;
+    height: 40px;
+    background-color: #11a9fb;
+    float: left;
+
+}
+#wire{
+    position: relative;
+    float: left;
+    width: 4px;
+    background-color: black;
+    height: 1100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#logo{
+
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+    margin-top: 7px;
+
+
+}
+#next{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+
+}
+.yuan_1{
+    margin-left: -8px;
+    margin-top: -3px;
+}
+.yuan_2{
+    margin-left: -8px;
+}
+.yuan_3{
+    margin-left: -8px;
+}
+.yuan_4{
+    margin-left: -8px;
+}
+.yuan_5{
+    margin-left: -8px;
+}
+#important{
+    width: 200px;
+    height:1000px;
+    margin-left: 20px;
+    margin-top: -100px;
+}

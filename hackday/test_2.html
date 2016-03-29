@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+    <script src="jquery-2.2.0.js"></script>
+
+    <script type="text/javascript" src="test_2.js"></script>
+    <link rel="stylesheet" type="text/css"  href="test_2.css">
+
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<div id="main">
+    <div id="header">
+        <img src="picture/logo.png" style="width: 120px ;height:120px;background-color: #01a4fc">
+    </div>
+    <div id="next">
+
+
+        <div id="wire">
+            <div class="yuan_1" >
+                <img src="picture/1.png" style="width: 130%">
+            </div>
+            <div class="yuan_2" >
+                <img src="picture/2.png" style="width: 130%">
+            </div>
+            <div class="yuan_3">
+                <img src="picture/3.png" style="width: 130%">
+            </div>
+            <div class="yuan_4" >
+                <img src="picture/4.png" style="width: 130%">
+            </div>
+            <div class="yuan_5" >
+                <img src="picture/5.png" style="width: 130%">
+            </div>
+        </div>
+        <form action="#" method="get">
+        <div id="div1">
+
+
+    <span id="span_subject">主题:</span>
+        <input id="subject" type="text" name="subject" />
+
+
+    <span class="span_date">可能日期:(最多选择五天)</span>
+        <div id="date">
+            <p> <input id="month_1" type="text" name="month_1"></p>
+            <p> <input id="month_2" type="text" name="month_2"></p>
+            <p> <input id="month_3" type="text" name="month_1"></p>
+            <p> <input id="month_4" type="text" name="month_2"></p>
+            <p> <input id="month_5" type="text" name="month_1"></p>
+
+        </div>
+
+    <span class="p_time">活动时长:</span>
+        <select id="select" name="time" size="1" style="height:50px">
+            <option  value="half_hour">半小时</option>
+            <option  value="one_hour">一小时</option>
+            <option  value="two_hour">两小时</option>
+        </select>
+
+    <span id="deadline">截止时间:</span>
+        <input class="year" type="text" name="date_day"  />
+        <input class="minute" type="text" name="data_minute"  />
+
+    <span id="from_people">发起人:        </span>
+
+        <input id="people" type="text" name="people" >
+    <span id="flip" onclick="length()">
+        <img id="imgid" src="musion/more.png" >
+        &nbsp&nbsp详细信息(可选)
+    </span>
+
+
+
+</div>
+
+            <div id="slide">
+                <span class="slide_area">地点:</span><input id="slide_1" type="text" name="else_1" >
+                <span class="slide_tel">联系电话:</span><input id="slide_2" type="text" name="else_2" >
+            </div>
+
+
+
+        <a id="submit" href="http://localhost:63342/hackday/test_3.html">发送给好友</a>
+        </form>
+    </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+}
+#header{
+
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #48bfff;
+    height: 40px;
+}
+#div_img{
+    width: 40px;
+    height: 40px;
+    background-color: #11a9fb;
+    float: left;
+
+}
+#logo{
+
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+    margin-top: 7px;
+
+
+}
+#next{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+
+}
+#next a{
+    text-decoration: none;
+    color: white;
+
+}
+#next :active{
+    opacity: 0.8;
+
+}
+#div1 p{
+    color: #898989;
+    font-size: 20px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 30%;
+}
+#p_secret{
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.secret{
+    width: 30px;
+    height: 30px;
+    border: 2px #898989 solid;
+    border-radius: 5px;
+    margin-left: 6px;
+    font-size: 20px;
+    text-align: center;
+}
+#send{
+    background-color: #11a9fb;
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-left: 23%;
+    margin-top: 60px;
+    border-radius: 6px ;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
