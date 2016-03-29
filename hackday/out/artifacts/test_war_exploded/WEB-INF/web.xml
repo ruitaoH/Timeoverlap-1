@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+        <welcome-file-list>
+            <welcome-file>index.jsp</welcome-file>
+        </welcome-file-list>
+
+        <!--用以开始活动->生成填写空闲时间的页面-->
+        <servlet>
+            <servlet-name>start_cl_activity</servlet-name>
+            <servlet-class>com.hrt.controller.start_cl_activity</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>start_cl_activity</servlet-name>
+            <url-pattern>/start_cl_activity</url-pattern>
+        </servlet-mapping>
+
+        <!--用以发布活动->验证链接所带的活动code->跳转到用户填写空闲时间的页面-->
+        <servlet>
+            <servlet-name>publish_cl_activity</servlet-name>
+            <servlet-class>com.hrt.controller.publish_cl_activity</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>publish_cl_activity</servlet-name>
+            <url-pattern>/publish_cl_activity</url-pattern>
+        </servlet-mapping>
+
+        <!--用以参加活动->存每个用户填写的空闲时间-->
+        <servlet>
+            <servlet-name>attend_cl_activity</servlet-name>
+            <servlet-class>com.hrt.controller.attend_cl_activity</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>attend_cl_activity</servlet-name>
+            <url-pattern>/attend_cl_activity</url-pattern>
+        </servlet-mapping>
+
+        <!--用以生成我的活动界面->获取到 我发起的活动 和 我参与的活动 信息-->
+        <!--分为几种状态：1.我发起的活动 2.我参与的活动 3.已经举办-->
+        <!--我参与的活动-统计相关状态：1.到xxx时间截止统计 2.以截止统计 等待确认时间 3.xxx时间举办-->
+        <!--我发起的活动-统计相关状态：1.到xxx时间截止 目前以投票人数 2.投票已截止 请尽快确认时间-->
+        <servlet>
+            <servlet-name>my_cl_activity</servlet-name>
+            <servlet-class>com.hrt.controller.my_cl_activity</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>my_cl_activity</servlet-name>
+            <url-pattern>/my_cl_activity</url-pattern>
+        </servlet-mapping>
+
+        <servlet>
+            <servlet-name>check</servlet-name>
+            <servlet-class>com.hrt.controller.check</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>check</servlet-name>
+            <url-pattern>/check</url-pattern>
+        </servlet-mapping>
+</web-app>

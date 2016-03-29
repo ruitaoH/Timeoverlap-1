@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    color: white;
+}
+#contain {
+    width: 100%;
+}
+#top {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px #11a9fb solid;
+    line-height: 40px;
+    position: fixed;
+}
+#logo {
+    font-size: 20px;
+    height: 100%;
+    width:13%;
+    background-color: #11a9fb;
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+}
+#main {
+    height: 420px;
+    background: #40b7fb url("mail.png") no-repeat 50% 50%;
+    background-size: 140px 110px;
+}
+#temp {
+    background-color: #40b7fb;
+    height: 40px;
+}
+#part {
+    height: 170px;
+}
+#info {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+#info span {
+    margin-top: 3%;
+    display: block;
+}
+span.spcl {
+    margin-bottom: 3%;
+    float: left;
+    display: inline-block;
+}
+#inline {
+    margin-left: 25px;
+}
+div#time {
+    margin-top: 15px;
+    padding-left: 42px;
+    background: url("3.png") no-repeat;
+    background-size: 28px 28px;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+    margin-left: 9%;
+}
+#time span {
+    display: inline-block;
+    height: inherit;
+}
+#joinNum {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #c4e6fe;
+}
+div#members {
+    margin-left: 25%;
+}
+.member {
+    color: #eef8ff;
+    font-size: 14px;
+}
+.name {
+    margin-right: 20px;
+}
